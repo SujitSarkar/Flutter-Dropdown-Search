@@ -1,0 +1,19 @@
+name: flutter_dropdown_search
+description: A Flutter package that an item can be searched from dropdown item lists
+version: 0.0.1
+author: Sujit Kumar Sarkar <sujitsarkar.cse@gmail.com>
+homepage: https://github.com/SujitSarkar/Flutter-Dropdown-Search
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
