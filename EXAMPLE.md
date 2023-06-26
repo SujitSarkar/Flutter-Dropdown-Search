@@ -1,17 +1,5 @@
-# flutter_dropdown_search
-By this package you can search an item from the dropdown item list.
-And also can get the input from TextField that not present in the dropdown items.
+## Example Code
 
-## Getting Started
-### Platforms
-This widget has been successfully tested on iOS, Android and Chrome.
-
-## Screenshots
-| Outlook                        | Searching with country name    |
-|--------------------------------|--------------------------------|
-| ![image info](ex_img/sc_1.png) | ![image info](ex_img/sc_2.png) | 
-
-## Code
 ```dart
 import 'package:flutter/material.dart';
 import 'package:flutter_dropdown_search/flutter_dropdown_search.dart';
