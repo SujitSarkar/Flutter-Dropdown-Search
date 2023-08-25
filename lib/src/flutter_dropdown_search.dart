@@ -4,6 +4,7 @@ class FlutterDropdownSearch extends StatefulWidget {
   final TextEditingController? textController;
   final String? hintText;
   final List<String>? items;
+  final FocusNode? focusNode;
   final TextStyle? hintStyle;
   final TextStyle? style;
   final TextStyle? dropdownTextStyle;
@@ -16,6 +17,7 @@ class FlutterDropdownSearch extends StatefulWidget {
   const FlutterDropdownSearch(
       {super.key,
       required this.textController,
+      this.focusNode,
       this.hintText,
       required this.items,
       this.hintStyle,
@@ -49,6 +51,7 @@ class _FlutterDropdownSearchState extends State<FlutterDropdownSearch> {
       children: [
         ///Text Field
         TextFormField(
+          focusNode: widget.focusNode,
           controller: widget.textController,
           onChanged: (val) {
             setState(() {
